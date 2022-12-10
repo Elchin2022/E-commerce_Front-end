@@ -11,6 +11,10 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   background-color: #131921;
   height: 80px;
