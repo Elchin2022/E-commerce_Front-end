@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="wrapper">
       <div className="header">
-        <a to="/">
+        <a href="/">
           <img className="header__logo" src={logo} alt={"logo"} />
         </a>
 
@@ -17,7 +17,7 @@ function Header() {
         </div>
 
         <div className="header__nav">
-          <a to={"/login"}>
+          <a href="/">
             <div>
               <div className="header__option">
                 <span className="header__optionLineOne">
@@ -31,7 +31,7 @@ function Header() {
             </div>
           </a>
 
-          <a to="/orders">
+          <a href="/">
             <div className="header__option">
               <span className="header__optionLineTwo">
                 <img
@@ -43,6 +43,7 @@ function Header() {
             </div>
           </a>
 
+        <a href="/">
           <div className="header__option">
             <span className="header__optionLineOne">
               <img
@@ -52,6 +53,7 @@ function Header() {
             </span>
             <span className="header__optionLineTwo">My card</span>
           </div>
+        </a>
         </div>
       </div>
     </div>
