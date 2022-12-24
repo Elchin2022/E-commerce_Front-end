@@ -1,10 +1,16 @@
+.wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+
 .header {
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #131921;
-  position: sticky;
+  background-color: #1b1b1b;
   top: 0;
   z-index: 100;
   width: 95%;
@@ -16,7 +22,7 @@ a {
 }
 
 .wrapper {
-  background-color: #131921;
+  background-color: #1b1b1b;
   height: 80px;
   display: flex;
   align-items: center;
@@ -45,7 +51,7 @@ a {
 
 .header__searchIcon {
   padding: 5px;
-  height: 30px !important;
+  height: 25px !important;
 }
 
 .header__optionLineOne {
@@ -69,4 +75,9 @@ a {
   margin-left: 10px;
   margin-right: 10px;
   color: white;
+}
+
+.header__basketCount {
+  color: #fff;
+  font-size: 1rem;
 }
